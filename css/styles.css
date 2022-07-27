@@ -41,7 +41,9 @@ body {
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	
+	border-width: 2px 2px;
+	border-color: rgb(159, 236, 44);
+	border-style: solid;
 }
 
 .current {
@@ -105,7 +107,10 @@ img{
 .nav-item,
 .header-mail,
 .header-tel {
-	padding: 10px 25px;	
+	margin-right: 25px;	
+}
+.header-tel {
+	margin-right: 0;
 }
 
 .header-tel{
@@ -128,6 +133,8 @@ img{
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: #212121;
+	padding-top: 20px;
+	padding-bottom: 0px;
 }
 .header-nav-list a:hover,
 .header-nav-list a:focus {
