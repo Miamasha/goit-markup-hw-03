@@ -41,9 +41,7 @@ body {
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	border-width: 2px 2px;
-	border-color: rgb(159, 236, 44);
-	border-style: solid;
+	
 }
 
 .current {
@@ -77,7 +75,7 @@ img{
 }
 .header-nav-list{
 	display: flex;
-	margin-left: 68px;
+	margin-left: 93px;
 }
 .header-contacts{
 	display: flex;
@@ -107,14 +105,12 @@ img{
 .nav-item,
 .header-mail,
 .header-tel {
-	margin-right: 25px;	
-}
-.header-tel {
-	margin-right: 0;
+	margin-right: 50px;	
 }
 
-.header-tel{
-	padding-right: 0;
+/*--.nav-item:last-child--*/
+.header-tel {
+	margin-right: 0;
 }
 
 .link {
@@ -133,8 +129,8 @@ img{
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: #212121;
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .header-nav-list a:hover,
 .header-nav-list a:focus {
@@ -149,6 +145,8 @@ img{
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: #757575;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .header-contacts a:hover,
 .header-contacts a:focus {
@@ -182,22 +180,21 @@ img{
 	cursor: pointer;
 }
 
-.footer-address {
-	margin-top: 20px;
+.footer-logo {
+	margin-bottom: 20px;
 }
-.address-mail{
-	padding-top: 9px;
+
+.footer-item {
+	margin-bottom: 9px;
 }
-.address-tel{
-	padding-top: 9px;
+.footer-item:last-child{
+	margin-bottom: 0;
 }
 /*-----------------MAIN STUDIO-----------------*/
 /*-----------------HERO-----------------*/
 .studio-hero {
 	background-color: #2F303A;
-}
-.hero-content {
-	padding: 280px 252px 200px;
+	padding: 200px;
 }
 
 .studio-banner {	
@@ -208,7 +205,8 @@ img{
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #ffffff;
-	
+	width: 696px;
+	margin: 0px auto 30px;
 }
 
 .hero-button {
@@ -227,7 +225,8 @@ img{
 	border-radius: 4px;
 	padding: 10px 32px;
 	border-style:none;
-	margin: 30px auto 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -237,6 +236,7 @@ img{
 .advantage-banner {
 	display: none;
 }
+
 
 .advantage-list {
 	list-style: none;
@@ -285,17 +285,14 @@ img{
 }
 
 .act-banner {
-	margin-bottom: 29px;	
+	margin-bottom: 50px;	
 }
 
 .act-type {
-	padding: 21px 15px;
-}
-.act-type:first-child {
-	padding-left: 0;
+	margin-right: 30px;
 }
 .act-type:last-child {
-	padding-right: 0;
+	margin-right: 0;
 }
 
 .actions,
@@ -314,7 +311,7 @@ img{
 }
 
 .team-banner {
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -341,22 +338,25 @@ img{
 .team-item:last-child{
 	margin-right: 0;
 }
-.team-name,
-.team-job {
+.team-name {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: #212121;
-}
-
-.team-name {
 	padding-top: 30px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .team-job {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #757575;
 	padding-bottom: 30px;
 }
 
@@ -372,6 +372,11 @@ img{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+
+.portf-proj-list {
+	margin-top: -15px;
+	margin-bottom: -15px;
 }
 
 .portf-btn-list {
@@ -390,25 +395,20 @@ img{
 	background: #f5f4fa;
 	border-radius: 4px;
 	border: 0px;
+	padding: 6px 22px;
 	margin: 0px 4px;
 }
 
 .portf-btn-type button:hover,
 .portf-btn-type button:focus {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.63;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: #ffffff;
+		color: #ffffff;
 	background: var(--accent-color);
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
 }
+
+
 /*-------------LAST PROJECTS--------------*/
 .portf-proj {
-	background: #ffffff;
-	border: 1px solid #eeeeee;
+	background: #ffffff;	
 	width: 370px;
 	margin: 15px;
 }
@@ -430,10 +430,8 @@ img{
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: #212121;
-	padding-top: 20px;
-	padding-bottom: 4px;
-	padding-left: 24px;
-}
+	margin-bottom: 4px;
+	}
 
 .proj-type {
 	font-weight: 400;
@@ -441,6 +439,11 @@ img{
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: #757575;
-	padding-bottom: 20px;
-	padding-left: 24px;
+	}
+.proj-text {
+	padding: 20px 24px;
+	background: #FFFFFF;
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
 }
